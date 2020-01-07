@@ -15,7 +15,7 @@
 * exec : npm run task07
 **/
 module.exports = getSum = function(number1,number2){
-    sum =number1+number2;
+    var sum =number1+number2;
     if(number1==number2){
         sum= sum*3;
     }
