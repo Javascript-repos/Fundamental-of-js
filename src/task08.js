@@ -15,3 +15,12 @@
 * test : npm run test08
 * exec : npm run task08
 **/
+module.exports = getResult = function(number1,number2){
+    if(number1==50)
+        return true;
+    if(number2==50)
+        return true;
+    if((number1+number2)==50)
+        return true;
+    return false;
+}
