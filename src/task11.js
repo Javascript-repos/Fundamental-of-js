@@ -13,3 +13,8 @@
 * test : npm run test11
 * exec : npm run task11
 **/
+module.exports = getMultiple = function(number1){
+    if(number1%3 === 0 || number1%7=== 0)
+        return true;
+    return false;
+}
