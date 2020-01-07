@@ -1,5 +1,5 @@
 var assert = require("assert");
-var assesment = require("..src/task06");
+var assesment = require("../src/task06");
 
 describe("absolute diffference #start_test", function(a, b) {
   // var base=10;
