@@ -14,3 +14,10 @@
 * test : npm run test15
 * exec : npm run task15
 **/
+module.exports = getSum = function(number1,number2){
+    var sum=number1+number2;
+    if(sum>50 && sum<80)
+        return 65;
+    
+    return 80;
+}
