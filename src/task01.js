@@ -15,7 +15,7 @@ function calculatePercentage(){
   //declaring variable named total and using '+' operator to add marks in subject
 var total = 50+40+60+90+10;
   // Declaring variable percent and storing percent calculated by formulae given using operators '*' and '/'
-var percent = (total*100)/500;
+var percent = (total*1)/5;
   //returning percent. 
 return percent;
 }
