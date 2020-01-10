@@ -14,3 +14,10 @@
 * test : npm run test10
 * exec : npm run task10
 **/
+module.exports = getNumber = function(Number1,Number2){
+    if(Number1>0 && Number2<0)
+        return true;
+    if(Number1<0 && Number2>0)
+        return true;
+    return false;
+}

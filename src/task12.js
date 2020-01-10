@@ -16,3 +16,8 @@
 * test : npm run test12
 * exec : npm run task12
 **/
+module.exports = getRange = function(number1, number2, number3){
+    if((number1>49 && number1<100) || (number2>49 && number2<100) || (number3>49 && number3<100))
+        return true;
+    return false;
+}

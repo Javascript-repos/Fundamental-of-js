@@ -14,3 +14,12 @@
 * test : npm run test16
 * exec : npm run task16
 **/
+module.exports = getDirection = function(Number1){
+    switch(Number1){
+        case 1: return "East";
+        case 2: return "West";
+        case 3: return "North";
+        case 4: return "South";
+        default: return " Wrong Input";
+    }
+}

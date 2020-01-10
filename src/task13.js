@@ -14,3 +14,11 @@
 * test : npm run test13
 * exec : npm run task13
 **/
+module.exports = getLargest = function(number1,number2,number3){
+    if(number1>number2 && number1>number3)
+        return number1;
+    if(number2>number1 && number2>number3)
+        return number2;
+    if(number3>number1 && number3>number2)
+        return number3;
+}
