@@ -13,10 +13,3 @@
 * test : npm run test09
 * exec : npm run task09
 **/
-module.exports = getRange = function(number1){
-    if(number1>80 && number1<120)
-        return true;
-    if(number1>380 && number1<420)
-        return  true;
-    return false;
-}

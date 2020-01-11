@@ -15,7 +15,3 @@
 * test : npm run test03
 * exec : npm run task03
 **/
-module.exports = getFahrenheit = function(Celsius){
-    var fahrenheit= ((9/5)* Celsius)+32;
-    return fahrenheit;
-}

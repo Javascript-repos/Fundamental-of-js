@@ -15,8 +15,3 @@
 * test : npm run test14
 * exec : npm run task14
 **/
-module.exports = getDigit = function(number1,number2,number3){
-    if((number1%10 == number2%10) && (number2%10==number3%10))
-        return true;
-    return false;
-}

@@ -15,8 +15,3 @@
 * test : npm run test18
 * exec : npm run task18
 **/
-module.exports = getEight = function(number1,number2){
-    if(number1===8 || number2===8 || number1+number2===8)
-        return true;
-    return false;
-}

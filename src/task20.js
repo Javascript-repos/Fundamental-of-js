@@ -15,10 +15,3 @@
 * test : npm run test20
 * exec : npm run task20
 **/
-module.exports = getCompare = function(base,perpendicular){
-    var areat=(0.5*base)*perpendicular;
-    var areas=base*base;
-    if(areat>areas)
-        return areat;
-    return areas;
-}

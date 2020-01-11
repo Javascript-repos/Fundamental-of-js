@@ -14,7 +14,3 @@
 * test : npm run test04
 * exec : npm run task04
 **/
-module.exports = getUSD = function(INR){
-    var usd = INR/75;
-    return usd;
-}

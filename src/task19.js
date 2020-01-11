@@ -16,10 +16,3 @@
 * test : npm run test19
 * exec : npm run task19
 **/
-module.exports = getCheck = function(number1,number2,number3){
-    if(number1==number2 && number2==number3)
-         return 30;
-    if(number1==number2 || number2==number3 || number1==number3)
-        return 20;
-    return 40;
-}

@@ -16,17 +16,3 @@
 * test : npm run test17
 * exec : npm run task17
 **/
-module.exports = getCalculator = function(number1,number2,choice){
-    var value;
-    switch(choice){
-        case 1: value = number1+number2;
-                break;
-        case 2: value = number1-number2;
-                break;
-        case 3: value = number1*number2;
-                break;
-        case 4: value = number1/number2;
-                break;
-    }
-    return value;
-}

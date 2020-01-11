@@ -14,13 +14,3 @@
 * test : npm run test06
 * exec : npm run task06
 **/
-module.exports = getNumber = function(Number1){
-    if(Number1>13){
-        var diff = (Number1-13)*2;
-        return diff;
-    }
-    if(Number1<13){
-        var diff1= 13-Number1;
-        return diff1;
-    }
-}
