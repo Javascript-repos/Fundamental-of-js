@@ -7,3 +7,7 @@ Test:
     script:
         - npm install
         - npm run test
+
+default:
+    tags:
+        - fojs
