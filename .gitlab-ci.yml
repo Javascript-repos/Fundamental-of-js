@@ -10,7 +10,7 @@ cache:
        - node_modules/
        
 Test:
-   tags:
+    tags:
         - fojs
         - node
     script:
