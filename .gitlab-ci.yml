@@ -1,8 +1,8 @@
 default:
     tags:
-        - node
         - fojs
-        
+        - node
+    
 image: node:latest
 
 cache:
