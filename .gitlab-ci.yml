@@ -9,5 +9,4 @@ Test:
         - npm run test
 
 default:
-    tags:
-        - fojs
+    tags: fojs
