@@ -8,7 +8,11 @@ image: node:latest
 cache:
    paths:
        - node_modules/
+       
 Test:
+   tags:
+        - fojs
+        - node
     script:
         - npm install
         - npm run test
