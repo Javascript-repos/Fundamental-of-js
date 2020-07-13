@@ -1,6 +1,6 @@
 defaults:
-   tags:
-      - fojs
+    tags:
+        - fojs
 image: node:latest
 
 cache:
